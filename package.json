@@ -6,7 +6,13 @@
     "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start",
-    "lint": "npx eslint ."
+    "lint": "eslint src --max-warnings=0",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "src/**/*": [
+      "yarn lint --fix"
+    ]
   },
   "dependencies": {
     "next": "12.3.1",
@@ -24,6 +30,8 @@
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.1.0",
     "globals": "^15.14.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
     "prettier": "3.4.2",
     "typescript": "5.7.3",
     "typescript-eslint": "^8.22.0"
