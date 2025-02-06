@@ -39,5 +39,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [prettier](https://prettier.io/docs/install)
 - [husky](https://typicode.github.io/husky/get-started.html)
 - [lint-staged](https://github.com/lint-staged/lint-staged)
+- [jest](https://jestjs.io/docs/getting-started)
+- [jest-styled-components](https://github.com/styled-components/jest-styled-components)
+- [react-testing-library](https://testing-library.com/docs/react-testing-library/intro)
 - [next-pwa](https://github.com/shadowwalker/next-pwa)
 - webpack
