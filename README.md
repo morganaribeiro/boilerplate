@@ -44,4 +44,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [react-testing-library](https://testing-library.com/docs/react-testing-library/intro)
 - [next-pwa](https://github.com/shadowwalker/next-pwa)
 - webpack
-- [leaflet](https://rowanhogan.github.io/Leaflet/index.html)
+- [react-leaflet](https://react-leaflet.js.org/)
